@@ -10,6 +10,7 @@ The code in this repository is based on the following book from Pragmatic Progra
 
 * [Seven Languages in Seven Weeks](http://www.amazon.com/Seven-Languages-Weeks-Programming-Programmers/dp/193435659X/ref=sr_1_1?s=books&tag=supo-20&ie=UTF8&qid=1307764498&sr=1-1)
 
+> "At worst, by learning languages, you’ll learn to fold new concepts back into the code that you write in your chosen language."
 
 ## Programming Languages:
 
