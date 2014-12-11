@@ -213,15 +213,39 @@ end
 # Do:
 
 # • Print the string “Hello, world.”
+puts "Hello, world"
 
 # • For the string “Hello, Ruby,” find the index of the word “Ruby.”
+"Hello, Ruby".index("Ruby")
 
 # • Print your name ten times.
+i = 0
+while i < 10
+  puts "Axel"
+  i += 1
+end
 
 # • Print the string “This is sentence number 1,” where the number 1 changes from 1 to 10.
+i = 0
+while i < 10
+  i += 1
+  puts "This is sentence number #{i}"
+end
 
 # • Run a Ruby program from a file.
+# TODO
 
-# • Bonus problem: If you’re feeling the need for a little more, write a program that picks a random number.
+# • Bonus problem: Write a program that picks a random number.
 # Let a player guess the number, telling the player whether the guess is too low or too high.
-# (Hint: rand(10) will generate a random number from 0 to 9, and 'gets' will read a string from the keyboard that you can translate to an integer.)
+numberToGuess = rand(10)
+playerInput = -1
+
+while numberToGuess != playerInput
+  puts "nope" unless playerInput == -1
+  playerInput = gets.to_i
+end
+
+puts "CONGRATZ!"
+
+# rand(10) will generate a random number from 0 to 9
+# 'gets' will read a string from the keyboard that you can translate to an integer
