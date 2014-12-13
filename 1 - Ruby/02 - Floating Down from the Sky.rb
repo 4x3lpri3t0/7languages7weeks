@@ -450,7 +450,8 @@ a.inject {|product, i| product * i}
 
 # inject takes a code block with two arguments and an expression
 
-# The code block will be executed for each item in the list, with inject passing each list element to the code block as the second argument
+# The code block will be executed for each item in the list, with inject passing each list element
+# to the code block as the second argument
 
 # The first argument is the result of the previous execution of the code block
 
@@ -494,7 +495,8 @@ my_array.each_slice(4) {|i| p i} # p is print
 # TODO
 
 # • Write a simple grep that will print the lines of a file having any occurrences of a phrase anywhere in that line.
-# You will need to do a simple regular expression match and read lines from a file. (This is surprisingly simple in Ruby.)
+# You will need to do a simple regular expression match and read lines from a file.
+# (This is surprisingly simple in Ruby.)
 # If you want, include line numbers.
 
 # TODO
