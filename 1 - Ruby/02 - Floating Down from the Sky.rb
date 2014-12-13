@@ -250,10 +250,10 @@ batate$ ruby hello.rb
 # Module
 #   |
 # Class  <--  Numeric
-# 			    |
-# 		      Integer
-# 			    |
-# 			  Fixnum  <--  4
+# 		 |
+# 	      Integer
+# 		 |
+#	      Fixnum  <--  4
 
 # Everything eventually inherits from Object
 
