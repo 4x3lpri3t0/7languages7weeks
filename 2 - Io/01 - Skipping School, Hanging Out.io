@@ -1,0 +1,1 @@
+# Io is a prototype language like Lua or JavaScript, meaning every object is a clone of another.
