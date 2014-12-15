@@ -68,3 +68,7 @@ Pure functional language. That means you won’t find mutable state anywhere. Th
 [erlang]: /images/erlang.png
 [clojure]: /images/clojure.png
 [haskell]: /images/haskell.png
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Zedronar/7languages7weeks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
