@@ -47,7 +47,44 @@ if(true, "It is true.", "It is false.")
 
 Io> OperatorTable
 
-# Add Operator
+# Add new Operator to OperatorTable
 
 Io> OperatorTable addOperator("xor", 11)
 
+Io> true xor := method(bool, if(bool, false, true))
+
+Io> false xor := method(bool, if(bool, true, false))
+
+Io> true xor true
+==> false
+Io> true xor false
+==> true
+Io> false xor true
+==> true
+Io> false xor false
+==> false
+
+# xor true gets parsed as true xor(true)
+
+# ----
+
+# Messages
+
+# One of the most crucial capabilities of the language is message reflection.
+# You can query any characteristic of any message and act appropriately.
+
+# A message has three components: the sender, the target, and the arguments.
+
+# The call method gives you access to the meta information about any message.
+
+# ----
+
+# (...)
+
+# ----
+
+# Reflection
+
+# ----
+
+# TODO: This is an interesting language, but I think I'll just skip it and keep going with the others for now
