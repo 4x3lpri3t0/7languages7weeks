@@ -40,3 +40,30 @@ likes(wendolene, sheep).
 
 friend(X, Y) :- \+(X = Y), likes(X, Z), likes(Y, Z).
 
+% \+ does logical negation so \+(X = Y) means X is not equal to Y
+
+main.
+
+% FILLING IN THE BLANKS
+
+food_type(velbeeta, cheese).
+food_type(ritz, cracker).
+food_type(spam, meat).
+food_type(sausage, meat).
+food_type(jolt, soda).
+food_type(twinkie, dessert).
+
+flavor(sweet, dessert).
+flavor(savory, meat).
+flavor(savory, cheese).
+flavor(sweet, soda).
+
+food_flavor(X, Y) :- food_type(X, Z), flavor(Y, Z).
+
+% Compile and ask some questions:
+
+% | ?- food_type(What, meat).
+% What = spam ?;
+% What = sausage ?;
+
+% 'What' is a variable
