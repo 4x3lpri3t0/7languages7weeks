@@ -73,3 +73,31 @@ Nil
 // ----
 
 // LOOPS
+
+def whileLoop {
+	var i = 1
+	while(i <= 3) {
+		println(i)
+		i += 1
+	}
+}
+// In Scala, public is the default visibility.
+
+def forLoop {
+	println("for loop using Java-style iteration")
+	for(i <- until args.length) {
+		println(args(i))
+	}
+}
+
+def rubyStyleForLoop {
+	println("for loop using Ruby-style iteration")
+	args.foreach { arg =>
+		println(arg)
+	}
+}
+
+// args is a list with the inbound command-line arguments
+// In Ruby would be: args.each {|arg| println(arg)}
+
+// RANGES AND TUPLES
