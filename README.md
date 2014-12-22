@@ -69,6 +69,9 @@ Pure functional language. That means you won’t find mutable state anywhere. Th
 [clojure]: /images/clojure.png
 [haskell]: /images/haskell.png
 
+----
+
+[![Codeivate Signature](http://www.codeivate.com/users/zedronar/signature.jpg)](http://www.codeivate.com/users/zedronar)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Zedronar/7languages7weeks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
