@@ -101,3 +101,46 @@ def rubyStyleForLoop {
 // In Ruby would be: args.each {|arg| println(arg)}
 
 // RANGES AND TUPLES
+
+val range = 0 until 10
+
+range.start
+
+range.end
+
+range.step
+// increments
+
+(0 to 10) by 5
+(0 to 10) by 6
+
+// the equivalent of Ruby's range, 1..10, is 1 to 10
+// the equivalent of Ruby's range, 1...10, is 1 until 10
+// to is inclusive:
+(0 until 10 by 5)
+
+// you can also specify direction:
+
+val range = (10 until 0) by -1
+
+// direction is not inferred:
+(10 until 0)
+// range: Range = Range()
+
+// inclusive
+val range = (0 to 10)
+
+// you are not limited to integers:
+val range = 'a' to 'e'
+
+// tuple is a fixed-length set of objects/collection
+val person = ("Elvis", "Presley")
+
+person._1
+person._2
+person._3
+//error
+
+// Scala uses tuples to do multivalue assignments:
+val (x, y) = (1, 2)
+
