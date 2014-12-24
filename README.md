@@ -1,4 +1,4 @@
-# #7languages7weeks Challenge
+﻿# #7languages7weeks Challenge
 
 This is a repository documenting my journey through the 
 [#7languages7weeks](https://twitter.com/search/%237languages7weeks)
@@ -17,7 +17,7 @@ The code in this repository is based on the following book from Pragmatic Progra
 ### Ruby ![ruby]
 
 This object-oriented language gets high marks for ease of
-use and readability. Is a dynamic, reflective, object-oriented, general-purpose programming language. Influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.
+use and readability. Is a dynamic, reflective, object-oriented programming language. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.
 
 ### ![io]
 
