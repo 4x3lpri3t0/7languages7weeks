@@ -92,7 +92,7 @@ class Person(val name: String) {
 }
 
 class Employee(override val name: String,
-						val number: Int) extends Person(name) {
+												val number: Int) extends Person(name) {
 	override def talk(message: String) {
 		println(name + " with number "  + number + " says " + message)
 	}
@@ -104,3 +104,48 @@ employee.talk("Extend or extend not. There is no try.")
 
 // TRAITS
 
+// A Trait is like a Java interface plus an implementation
+// Look at a trait as a partial-class implementation
+
+// Adding trait Nice to Person:
+
+class Person(val name:String)
+
+trait Nice {
+	def greet() = println("Howdily doodily.")
+}
+
+class Character(override val name:String) extends Person(name) with Nice
+
+val flanders = new Character("Ned")
+flanders.greet
+
+// ----
+
+// Day 1 Self-Study
+
+//Find:
+
+// • The Scala API
+
+// http://www.scala-lang.org/api/current/#package
+
+// • A comparison of Java and Scala
+
+// http://www.toptal.com/scala/why-should-i-learn-scala
+
+// • A discussion of val versus var
+
+// http://stackoverflow.com/questions/1791408/what-is-the-difference-between-a-var-and-val-definition-in-scala
+
+// The object assigned to a val cannot be replaced
+// The object assigned to a var can
+
+// Do:
+
+// • Write a game that will take a tic-tac-toe board with X, O, and blank
+// characters and detect the winner or whether there is a tie or no winner yet.
+// Use classes where appropriate.
+// • Bonus problem: Let two players play tic-tac-toe.
+
+// See tic_tac_toe.scala
