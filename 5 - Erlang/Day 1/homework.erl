@@ -11,7 +11,13 @@
 % • Write a function that uses recursion to return the number of
 % words in a string.
 
+% TODO
+
 % • Write a function that uses recursion to count to ten.
+
+% TODO
 
 % • Write a function that uses matching to selectively print “success”
 % or “error: message” given input of the form {error, Message} or success.
+
+% TODO
