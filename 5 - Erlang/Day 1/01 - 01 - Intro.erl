@@ -1,9 +1,5 @@
 % BEAM => virtual machine
 
-% " Agent Smith was an artificial intelligence program in the
-% 	matrix that had an amazing ability to take any form and bend the rules
-% 	of reality to be in many places at once. He was unavoidable. "
-
 % Erlang provides what many other languages can’t:
 % scalable concurrency and reliability.
 
