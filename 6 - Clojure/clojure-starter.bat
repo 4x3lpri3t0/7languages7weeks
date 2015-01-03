@@ -1,0 +1,1 @@
+cmd /k "cd /d D:\clojure-1.6.0 && java -cp clojure-1.6.0.jar clojure.main"
