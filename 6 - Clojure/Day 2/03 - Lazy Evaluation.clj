@@ -68,3 +68,50 @@
 
 ; ----
 
+; CONSECUTIVE PARS IN FIBONACCI SEQUENCE
+
+; Each number of a sequence is the sum of the last two.
+
+; Given a pair, [a b], we can generate the next with [b, a + b].
+; We can generate an anonymous function to generate one pair,
+; given the previous value:
+
+(defn fib-pair [[a b]] [b (+ a b)])
+
+(fib-pair [3 5])
+;; [5 8]
+
+; Next, we’ll use iterate to build an infinite sequence:
+
+(iterate fib-pair [1 1])
+
+; We'll use map to grab the first element from all of those pairs:
+
+(map
+first
+(iterate fib-pair [1 1]))
+
+; That’s an infinite sequence. Now, we can take the first 5:
+
+(take 5
+(map
+first
+(iterate fib-pair [1 1])))
+
+;; (1 1 2 3 5)
+
+; Or we can grab the number at index 500, like this:
+
+(nth (map first (iterate fib-pair [1 1])) 500)
+;; (225... more numbers ...626)
+
+; The performance is excellent. Using lazy sequences, you can often describe
+; recursive problems like Fibonacci. Factorial is another example:
+
+(defn factorial [n] (apply * (take n (iterate inc 1))))
+
+(factorial 5)
+;; 120
+
+; We grab n elements from the infinite sequence (iterate inc 1). Then we
+; take n of them and multiply them together with apply *.
