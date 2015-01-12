@@ -29,4 +29,9 @@
 
 ; • Implement an unless with an else condition using macros.
 
+(defmacro unless [test if-body else-body]
+	(list 'if (list 'not test) if-body else-body))
+
 ; • Write a type using defrecord that implements a protocol.
+
+;; TODO
