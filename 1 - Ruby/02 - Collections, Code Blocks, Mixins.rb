@@ -355,7 +355,7 @@ Person.new('matz').to_f
 # The to_f method writes the output of the to_s method to a file
 # with a filename supplied by the filename method.
 
-#What’s interesting here is that to_s is used in the module but
+# What’s interesting here is that to_s is used in the module but
 # implemented in the class!
 # The class has not even been defined yet.
 # The module interacts with the including class at an intimate level.
@@ -485,18 +485,3 @@ my_array.each {|i| print_by_4(i)}
 
 my_array = (1..16)
 my_array.each_slice(4) {|i| p i} # p is print
-
-
-# • The Tree class was interesting, but it did not allow you to specify a new tree with a clean user interface.
-# Let the initializer accept a nested structure with hashes and arrays.
-# You should be able to specify a tree like this:
-# {’grandpa’ => {’ dad’ => {’child 1’ => {}, ’child 2’ => {} }, ’uncle’ => {’child 3’ => {}, ’child 4’ => {} } } }
-
-# TODO
-
-# • Write a simple grep that will print the lines of a file having any occurrences of a phrase anywhere in that line.
-# You will need to do a simple regular expression match and read lines from a file.
-# (This is surprisingly simple in Ruby.)
-# If you want, include line numbers.
-
-# TODO

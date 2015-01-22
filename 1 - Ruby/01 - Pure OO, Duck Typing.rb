@@ -233,12 +233,14 @@ while i < 10
 end
 
 # • Run a Ruby program from a file.
-# TODO
+ruby my_program.rb
 
 # • Bonus problem: Write a program that picks a random number.
 # Let a player guess the number, telling the player whether the guess is too low or too high.
 numberToGuess = rand(10)
 playerInput = -1
+
+puts "Guess the number between 0 and 10:"
 
 while numberToGuess != playerInput
   puts "nope" unless playerInput == -1

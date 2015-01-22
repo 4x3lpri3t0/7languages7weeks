@@ -349,22 +349,4 @@ Io> nil clone
 # Io prototype language has very simple syntax that you
 # can use to build new basic elements of the language itself.
 
-# Your job as a new student is greatly simplified:
-# • Understand a few basic syntactical rules.
-# • Understand messages.
-# • Understand prototypes.
-# • Understand the libraries.
-
-# ----
-
-# Day 1 Self-Study
-
-# Do:
-
-# • Run an Io program from a file:
-
-
-
-# • Execute the code in a slot given its name.
-
-
+# Your just have to understand messages and prototypes.

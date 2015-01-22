@@ -85,6 +85,5 @@ Io> false xor false
 
 # Reflection
 
-# ----
-
-# TODO: This is an interesting language, but I think I'll just skip it and keep going with the others for now
+# 
+# To be continued...
