@@ -14,36 +14,33 @@ The code in this repository is based on the following book from Pragmatic Progra
 
 ## Programming Languages:
 
-### Ruby ![ruby]
+### ![ruby]
 
-This object-oriented language gets high marks for ease of
-use and readability. Is a dynamic, reflective, object-oriented programming language. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.
+Ruby is a programming language that gets high marks for ease of use and readability. It's a dynamic and reflective language. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It features a dynamic type system and automatic memory management.
 
 ### ![io]
 
-Io has a prototype-based object model similar to the ones in Self and NewtonScript, eliminating the distinction between instance and class. Like Smalltalk, everything is an object and it uses dynamic typing. Like Lisp, programs are just data trees. Io uses actors for concurrency.
+Io has a prototype-based object model similar to the ones in JavaScript, Self, and NewtonScript, eliminating the distinction between instance and class. Like Smalltalk, everything is an object and it uses dynamic typing. Like Lisp, programs are just data trees. Io uses actors for concurrency.
 
 Remarkable features of Io are its minimal size and openness to using external code resources. Io is executed by a small, portable virtual machine.
 
-Concurrency constructs with simplicity and uniformity of syntax. The minimal syntax is powerful, and the similarities
-to Lisp are striking. Io is a prototype language like JavaScript, and has a unique message dispatch
-mechanism.
+Concurrency constructs with simplicity and uniformity of syntax. The minimal syntax is powerful, and the similarities to Lisp are striking. Io's uniqueness comes from its message dispatch mechanism.
 
 ### ![prolog]
 
-Logic programming language associated with artificial intelligence and computational linguistics. 
+Prolog is a logic programming language associated with artificial intelligence and computational linguistics. 
 
-Prolog has its roots in first-order logic, a formal logic. Unlike many other programming languages, Prolog is declarative: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
+It has its roots in first-order logic, a formal logic. Unlike many other programming languages, Prolog is declarative: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 
 ### ![scala]
 
-Object-functional programming language for general software applications. Scala has full support for functional programming and a very strong static type system. This allows programs written in Scala to be very concise and thus smaller in size than other general purpose programming languages. Many of Scala's design decisions were inspired by criticism over the shortcomings of Java.
+Scala is a hybrid (OOP + FP) for general software applications. Scala has full support for functional programming and a very strong static type system. This allows programs written in Scala to be very concise and thus smaller in size than other general purpose programming languages. Many of Scala's design decisions were inspired by criticism over the shortcomings of Java.
 
 Scala source code is intended to be compiled to Java bytecode, so that the resulting executable code runs on a Java virtual machine. Java libraries may be used directly in Scala code, and vice versa. Like Java, Scala is object-oriented, and uses a curly-brace syntax reminiscent of the C programming language. Unlike Java, Scala has many features of functional programming languages like Scheme, Standard ML and Haskell, including currying, type inference, immutability, lazy evaluation, and pattern matching.
 
 ### ![erlang]
 
-General-purpose concurrent, garbage-collected programming language and runtime system. The sequential subset of Erlang is a functional language, with eager evaluation, single assignment, and dynamic typing. It was designed by Ericsson to support distributed, fault-tolerant, soft-real-time, non-stop applications. It supports hot swapping, so that code can be changed without stopping a system.
+Erlang is a general-purpose, concurrent, garbage-collected programming language and runtime system. The sequential subset of Erlang is a functional language, with eager evaluation, single assignment, and dynamic typing. It was designed by Ericsson to support distributed, fault-tolerant, soft-real-time, non-stop applications. It supports hot swapping, so that code can be changed without stopping a system.
 
 While threads require external library support in most languages, Erlang provides language-level features for creating and managing processes with the aim of simplifying concurrent programming. Though all concurrency is explicit in Erlang, processes communicate using message passing instead of shared variables, which removes the need for explicit locks (a locking scheme is still used internally by the VM).
 
@@ -59,7 +56,7 @@ Unlike other Lisp dialects, the parentheses are greatly reduced, and you have a 
 
 ### ![haskell]
 
-Pure functional language. That means you won’t find mutable state anywhere. The same function with the same input parameters will give you the same output, every time. Of all the strongly typed languages, Haskell supports the most widely respected typing model.
+Haskell is a _pure_ functional language. That means you won’t find mutable state anywhere. The same function with the same input parameters will give you the same output, every time. Of all the strongly typed languages, Haskell supports the most widely respected typing model.
 
 [ruby]: /images/ruby.png
 [io]: /images/io.png
@@ -68,10 +65,3 @@ Pure functional language. That means you won’t find mutable state anywhere. Th
 [erlang]: /images/erlang.png
 [clojure]: /images/clojure.png
 [haskell]: /images/haskell.png
-
-----
-
-[![Codeivate Signature](http://www.codeivate.com/users/zedronar/signature.jpg)](http://www.codeivate.com/users/zedronar)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Zedronar/7languages7weeks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
